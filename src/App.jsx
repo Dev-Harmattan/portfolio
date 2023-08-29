@@ -1,17 +1,14 @@
 import { BrowserRouter } from 'react-router-dom';
 import {
   About,
-  BallCanvas,
   Navbar,
   Contact,
   Hero,
   Experience,
   Tech,
   Works,
-  EarthCanvas,
   Feedbacks,
   StarsCanvas,
-  ComputersCanvas,
 } from './components';
 
 const App = () => {
