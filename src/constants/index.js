@@ -235,4 +235,22 @@ const projects = [
   },
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+const socialMedias = [
+  {
+    name: 'Twitter',
+    link: 'https://twitter.com/Dev_harmattan',
+  },
+  {
+    name: 'LinkedIn',
+    link: 'https://www.linkedin.com/in/ganiyu-sodiq/',
+  },
+];
+
+export {
+  services,
+  technologies,
+  experiences,
+  testimonials,
+  projects,
+  socialMedias,
+};
