@@ -18,7 +18,7 @@ const Hero = () => {
             Hi, I'm <span className="text-[#915eff]">Sodiq</span>
           </h1>
           <p className="mt-2 text-white-100">
-            Highly skilled and proficient Full Stack Developer.
+            Highly skilled and proficient Javascript Full Stack Developer.
           </p>
         </div>
       </div>

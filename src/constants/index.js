@@ -23,6 +23,7 @@ import {
   jobit,
   tripguide,
   threejs,
+  security,
 } from '../assets';
 
 export const navLinks = [
@@ -54,7 +55,7 @@ const services = [
     icon: backend,
   },
   {
-    title: 'Content Creator',
+    title: 'DevOps',
     icon: creator,
   },
 ];
