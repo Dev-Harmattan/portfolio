@@ -117,56 +117,32 @@ const technologies = [
 
 const experiences = [
   {
-    title: 'React.js Developer',
-    company_name: 'Starbucks',
-    icon: starbucks,
+    title: 'Back-end Development Mastery',
+    icon: backend,
     iconBg: '#383E56',
-    date: 'March 2020 - April 2021',
-    points: [
-      'Developing and maintaining web applications using React.js and other related technologies.',
-      'Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.',
-      'Implementing responsive design and ensuring cross-browser compatibility.',
-      'Participating in code reviews and providing constructive feedback to other developers.',
-    ],
+    content:
+      'I adeptly leverage Node.js and Python for server-side applications, tailoring their use to specific performance demands. My work ethos prioritizes security, scalability, and performance, forming the core of my development approach.',
   },
   {
-    title: 'React Native Developer',
-    company_name: 'Tesla',
-    icon: tesla,
+    title: 'React Native Expertise',
+    icon: mobile,
     iconBg: '#E6DEDD',
-    date: 'Jan 2021 - Feb 2022',
-    points: [
-      'Developing and maintaining web applications using React.js and other related technologies.',
-      'Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.',
-      'Implementing responsive design and ensuring cross-browser compatibility.',
-      'Participating in code reviews and providing constructive feedback to other developers.',
-    ],
+    content:
+      'In the realm of React Native, I craft cross-platform mobile apps with native-like experiences. I optimize UI/UX, integrate APIs, and ensure performance, offering users an engaging journey. My proficiency in React Native drives innovative mobile solutions at the forefront of technology.',
   },
   {
-    title: 'Web Developer',
-    company_name: 'Shopify',
-    icon: shopify,
+    title: 'DevOps Mastery',
+    icon: creator,
     iconBg: '#383E56',
-    date: 'Jan 2022 - Jan 2023',
-    points: [
-      'Developing and maintaining web applications using React.js and other related technologies.',
-      'Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.',
-      'Implementing responsive design and ensuring cross-browser compatibility.',
-      'Participating in code reviews and providing constructive feedback to other developers.',
-    ],
+    content:
+      'Navigating cloud technologies, I employ deployment automation and seamless integration to harmonize iterative codebases. My mastery extends to cloud deployment, managing Linux instances, databases, security, and networking, with a focus on AWS.',
   },
   {
-    title: 'Full stack Developer',
-    company_name: 'Meta',
-    icon: meta,
+    title: 'Full-stack Proficiency',
+    icon: web,
     iconBg: '#E6DEDD',
-    date: 'Jan 2023 - Present',
-    points: [
-      'Developing and maintaining web applications using React.js and other related technologies.',
-      'Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.',
-      'Implementing responsive design and ensuring cross-browser compatibility.',
-      'Participating in code reviews and providing constructive feedback to other developers.',
-    ],
+    content:
+      'I excel in orchestrating comprehensive websites and apps, catering to diverse needs across front-end, back-end, and the web application spectrum. I expertly deploy and safeguard intricate web apps, ensuring security, SEO, performance, cross-browser compatibility, and more.',
   },
 ];
 
