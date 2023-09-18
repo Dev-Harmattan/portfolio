@@ -15,6 +15,8 @@ const ProjectCard = ({
   tags,
   image,
   source_code_link,
+  source_code_link_two,
+  projects_link,
 }) => {
   return (
     <motion.div variants={fadeIn('up', 'spring', index * 0.5, 0.75)}>
@@ -44,21 +46,34 @@ const ProjectCard = ({
               />
             </div>
             {/* for the deployed application link */}
-            {/* <div
-              onClick={() => window.open(source_code_link, '_blank')}
-              className="black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer"
-            >
-              <img
-                src={github}
-                alt="source code"
-                className="w-1/2 h-1/2 object-contain"
-              />
-            </div> */}
+            {source_code_link_two && (
+              <div
+                onClick={() => window.open(source_code_link_two, '_blank')}
+                className="black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer"
+              >
+                <img
+                  src={github}
+                  alt="source code"
+                  className="w-1/2 h-1/2 object-contain"
+                />
+              </div>
+            )}
           </div>
         </div>
 
         <div className="mt-5">
           <h3 className="text-white font-bold text-[24px]">{name}</h3>
+          {projects_link && (
+            <a
+              href="https://booking-client-visit.vercel.app/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:underline text-white text-[15px]"
+            >
+              Project Link
+            </a>
+          )}
+
           <p className="mt-2 text-secondary text-[14px]">{description}</p>
         </div>
 

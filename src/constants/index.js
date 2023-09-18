@@ -24,6 +24,7 @@ import {
   tripguide,
   threejs,
   security,
+  realEstate,
 } from '../assets';
 
 export const navLinks = [
@@ -171,9 +172,9 @@ const testimonials = [
 
 const projects = [
   {
-    name: 'Car Rent',
+    name: 'Real Estate Booking',
     description:
-      'Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.',
+      'The real estate booking Web-based platform allows users to book a visit, cancel bookings, like preferred housing estates, add their new property, and contact.',
     tags: [
       {
         name: 'react',
@@ -184,12 +185,26 @@ const projects = [
         color: 'green-text-gradient',
       },
       {
-        name: 'tailwind',
+        name: 'css',
+        color: 'blue-text-gradient',
+      },
+      {
+        name: 'Node',
+        color: 'green-text-gradient',
+      },
+      {
+        name: 'Auth0',
+        color: 'blue-text-gradient',
+      },
+      {
+        name: 'Prisma',
         color: 'pink-text-gradient',
       },
     ],
-    image: carrent,
-    source_code_link: 'https://github.com/',
+    image: realEstate,
+    source_code_link: 'https://github.com/Dev-Harmattan/Booking-client',
+    source_code_link_two: 'https://github.com/Dev-Harmattan/Booking-API',
+    projects_link: 'https://booking-client-visit.vercel.app/',
   },
   {
     name: 'Job IT',
