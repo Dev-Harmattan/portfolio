@@ -28,9 +28,10 @@ import starbucks from './company/starbucks.png';
 import tesla from './company/tesla.png';
 
 import carrent from './carrent.png';
-import realEstate from './Real-estate.png'
+import realEstate from './Real-estate.png';
 import jobit from './jobit.png';
 import tripguide from './tripguide.png';
+import marketStore from './marketStore.png';
 
 export {
   logo,
@@ -63,4 +64,5 @@ export {
   tripguide,
   security,
   realEstate,
+  marketStore,
 };

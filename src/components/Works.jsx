@@ -17,6 +17,7 @@ const ProjectCard = ({
   source_code_link,
   source_code_link_two,
   projects_link,
+  projects_link_two,
 }) => {
   return (
     <motion.div variants={fadeIn('up', 'spring', index * 0.5, 0.75)}>
@@ -28,7 +29,7 @@ const ProjectCard = ({
         }}
         className="bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full"
       >
-        <div className="relative w-full h-[230px]">
+        <div className="relative w-full h-[230px] inset-0">
           <img
             src={image}
             alt="project_image"
@@ -63,16 +64,29 @@ const ProjectCard = ({
 
         <div className="mt-5">
           <h3 className="text-white font-bold text-[24px]">{name}</h3>
-          {projects_link && (
-            <a
-              href="https://booking-client-visit.vercel.app/"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="hover:underline text-white text-[15px]"
-            >
-              Project Link
-            </a>
-          )}
+          <div className="flex flex-row gap-3 my-4">
+            {projects_link && (
+              <a
+                href={projects_link}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="hover:underline text-white text-[15px]"
+              >
+                Project Link
+              </a>
+            )}
+
+            {projects_link_two && (
+              <a
+                href={projects_link_two}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="hover:underline text-white text-[15px]"
+              >
+                Project Link
+              </a>
+            )}
+          </div>
 
           <p className="mt-2 text-secondary text-[14px]">{description}</p>
         </div>

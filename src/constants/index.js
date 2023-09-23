@@ -25,6 +25,7 @@ import {
   threejs,
   security,
   realEstate,
+  marketStore,
 } from '../assets';
 
 export const navLinks = [
@@ -207,25 +208,38 @@ const projects = [
     projects_link: 'https://booking-client-visit.vercel.app/',
   },
   {
-    name: 'Job IT',
+    name: 'Market Store and Admin',
     description:
       'Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.',
     tags: [
       {
-        name: 'react',
-        color: 'blue-text-gradient',
+        name: 'Next.js',
+        color: 'black-text-gradient',
       },
       {
-        name: 'restapi',
+        name: 'clerk',
         color: 'green-text-gradient',
       },
       {
-        name: 'scss',
-        color: 'pink-text-gradient',
+        name: 'Tailwind',
+        color: 'blue-text-gradient',
+      },
+      {
+        name: 'Prisma',
+        color: 'black-text-gradient',
+      },
+      {
+        name: 'MySql',
+        color: 'green-text-gradient',
       },
     ],
-    image: jobit,
-    source_code_link: 'https://github.com/',
+    image: marketStore,
+    source_code_link:
+      'https://github.com/Dev-Harmattan/E-commerce-with-admin-cms',
+    source_code_link_two: 'https://github.com/Dev-Harmattan/ecommerce-store',
+    projects_link: 'https://ecommerce-admin-seven-vert.vercel.app/',
+    projects_link_two:
+      'https://ecommerce-store-fbace8kul-dev-harmattan.vercel.app/',
   },
   {
     name: 'Trip Guide',
